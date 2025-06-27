@@ -30,9 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased font-brasilia-short font-silverstreak`}
       >
         <Navbar />
-        <div style={{ minHeight: "calc(100vh - 120px)", color: "#fff" }}>
-          {children}
-        </div>
+        <div>{children}</div>
         <Footer />
       </body>
     </html>
