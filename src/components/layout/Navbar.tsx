@@ -39,23 +39,12 @@ function Navbar() {
           Paradiso
         </h2>
       </div>
-      <ul
-        style={{
-          display: "flex",
-          gap: "2rem",
-          listStyle: "none",
-          fontSize: "1.25rem",
-          margin: 0,
-          padding: 0,
-        }}
-      >
+      <ul className="flex gap-8 list-none m-0 p-0 text-xl">
         <li>
           <a
             href="/"
+            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 500,
               fontFamily: "var(--font-brasilia-short)",
             }}
           >
@@ -65,10 +54,8 @@ function Navbar() {
         <li>
           <a
             href="/dine"
+            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 500,
               fontFamily: "var(--font-brasilia-short)",
             }}
           >
@@ -78,10 +65,8 @@ function Navbar() {
         <li>
           <a
             href="/swim"
+            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 500,
               fontFamily: "var(--font-brasilia-short)",
             }}
           >
@@ -91,10 +76,8 @@ function Navbar() {
         <li>
           <a
             href="/vibe"
+            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 500,
               fontFamily: "var(--font-brasilia-short)",
             }}
           >
@@ -103,11 +86,9 @@ function Navbar() {
         </li>
         <li>
           <a
-            href="/market"
+            href="https://themarketparadiso.com/"
+            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 500,
               fontFamily: "var(--font-brasilia-short)",
             }}
           >
@@ -117,10 +98,8 @@ function Navbar() {
         <li>
           <a
             href="/contact"
+            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 500,
               fontFamily: "var(--font-brasilia-short)",
             }}
           >
@@ -129,11 +108,10 @@ function Navbar() {
         </li>
         <li>
           <a
-            href="/membership"
+            href="https://join.paradisochs.com/mixson-individual-membership"
+            target="_blank"
+            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 500,
               fontFamily: "var(--font-brasilia-short)",
             }}
           >
