@@ -21,7 +21,12 @@ function Navbar() {
               : "bg-transparent text-white"
           }`}
     >
-      <div className="flex items-center gap-3">
+      <a
+        href="/"
+        className="flex items-center gap-3 cursor-pointer bg-transparent border-none p-0 m-0 focus:outline-none"
+        style={{ textDecoration: "none" }}
+        aria-label="Go to home page"
+      >
         <img
           src="/Paradiso-Icon-Round.png"
           alt="Paradiso Icon"
@@ -38,7 +43,7 @@ function Navbar() {
         >
           Paradiso
         </h2>
-      </div>
+      </a>
       <ul className="flex gap-8 list-none m-0 p-0 text-xl">
         <li>
           <a
