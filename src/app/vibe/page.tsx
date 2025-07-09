@@ -1,4 +1,3 @@
-import HeroSection from "@/components/layout/HeroSection";
 import VibeHero from "@/components/vibe/VibeHero";
 import { Metadata } from "next";
 
