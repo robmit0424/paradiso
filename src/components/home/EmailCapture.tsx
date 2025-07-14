@@ -66,7 +66,7 @@ const EmailCapture = () => {
 
             {/* Floating badge */}
             <motion.div
-              className="absolute -top-4 -right-4 bg-[#ec9aad] text-white px-6 py-3 rounded-full font-semibold shadow-lg"
+              className="absolute -top-4 -right-4 bg-[#ec9aad] text-white px-6 py-3 rounded-full font-semibold shadow-lg font-silverstreak"
               animate={{
                 y: [0, -10, 0],
                 rotate: [0, 2, 0],
@@ -151,7 +151,7 @@ const EmailCapture = () => {
                   <button
                     type="submit"
                     disabled={isLoading || !email}
-                    className="w-full bg-gradient-to-r from-[#1ACAD4] to-[#ec9aad] text-white font-semibold py-4 px-8 rounded-2xl hover:shadow-lg transform hover:scale-[1.02] transition-all duration-300 disabled:opacity-50 disabled:transform-none font-sans"
+                    className="cursor-pointer w-full bg-gradient-to-r from-[#1ACAD4] to-[#ec9aad] text-white font-semibold py-4 px-8 rounded-2xl hover:shadow-lg transform hover:scale-[1.02] transition-all duration-300 disabled:opacity-50 disabled:transform-none font-sans"
                   >
                     {isLoading ? (
                       <div className="flex items-center justify-center space-x-2">

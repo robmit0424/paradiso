@@ -61,3 +61,7 @@ h6 {
 p {
   font-family: var(--font-montserrat);
 }
+
+.font-silverstreak {
+  font-family: var(--font-silverstreak);
+}
