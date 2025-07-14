@@ -96,7 +96,7 @@ function Footer() {
         }}
       >
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/paradisochs/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -132,7 +132,7 @@ function Footer() {
           </svg>
         </a>
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/ParadisoCHS/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
