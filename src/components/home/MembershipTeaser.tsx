@@ -13,7 +13,7 @@ const MembershipTeaser = () => {
     <section className="w-full py-20 px-8 relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/membership-bg.jpg"
+          src="/grid_images/group_outside.jpeg"
           alt="Membership background"
           className="w-full h-full object-cover"
         />
