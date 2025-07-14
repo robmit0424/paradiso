@@ -5,6 +5,15 @@ import BackgroundCard from "../common/BackgroundCard";
 function HomeCards() {
   return (
     <GeneralSection>
+      <div className="relative z-10 flex flex-col items-center text-center mb-10 mt-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 font-heading drop-shadow-lg">
+          Explore Paradiso
+        </h2>
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto font-sans">
+          Dine, swim, vibe, and discover our unique market — all in one vibrant
+          community hub.
+        </p>
+      </div>
       <div className="relative w-full">
         {/* Centered Leaf Background */}
         <img
