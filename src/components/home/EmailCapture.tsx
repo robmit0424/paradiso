@@ -36,7 +36,7 @@ const EmailCapture = () => {
               <div className="col-span-2 relative overflow-hidden rounded-2xl aspect-[16/10]">
                 <img
                   src="/grid_images/paradiso_sign.jpeg"
-                  alt="Silver Streak exclusive experience"
+                  alt="Paradiso exclusive experience"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -99,8 +99,7 @@ const EmailCapture = () => {
                 <p className="text-lg text-gray-600 leading-relaxed mb-8 font-sans">
                   Join our VIP list and be the first to know about exclusive
                   member events, private tastings, and special experiences at
-                  Silver Streak. Plus, get a complimentary day pass when you
-                  visit!
+                  Paradiso. Plus, get a complimentary day pass when you visit!
                 </p>
               </motion.div>
 
