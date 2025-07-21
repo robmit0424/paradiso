@@ -89,6 +89,18 @@ function Navbar() {
             Vibe
           </a>
         </li>
+
+        <li>
+          <a
+            href="/lodging"
+            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
+            style={{
+              fontFamily: "var(--font-brasilia-short)",
+            }}
+          >
+            Lodging
+          </a>
+        </li>
         <li>
           <a
             href="https://themarketparadiso.com/"
@@ -102,19 +114,7 @@ function Navbar() {
         </li>
         <li>
           <a
-            href="/contact"
-            className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
-            style={{
-              fontFamily: "var(--font-brasilia-short)",
-            }}
-          >
-            Contact
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://join.paradisochs.com/mixson-individual-membership"
-            target="_blank"
+            href="/membership"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
               fontFamily: "var(--font-brasilia-short)",
