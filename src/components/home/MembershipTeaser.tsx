@@ -28,7 +28,7 @@ const MembershipTeaser = () => {
             </h2>
 
             <p className="text-white text-xl mb-8 leading-relaxed opacity-95 font-sans">
-              Become part of North Charleston&apos;s most exclusive social
+              Become part of North Charleston&#39;s most exclusive social
               destination. Where every day feels like a vacation.
             </p>
 
