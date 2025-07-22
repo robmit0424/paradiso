@@ -50,7 +50,7 @@ const EventsPreview = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-semibold text-gray-900 mb-4 font-heading">
-            What's Happening
+            What&#39;s Happening
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto font-sans">
             From wellness workshops to social celebrations, there&apos;s always
