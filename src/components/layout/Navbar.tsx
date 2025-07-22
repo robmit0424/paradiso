@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -21,16 +23,18 @@ function Navbar() {
               : "bg-transparent text-white"
           }`}
     >
-      <a
+      <Link
         href="/"
         className="flex items-center gap-3 cursor-pointer bg-transparent border-none p-0 m-0 focus:outline-none"
         style={{ textDecoration: "none" }}
         aria-label="Go to home page"
       >
-        <img
+        <Image
           src="/Paradiso-Icon-Round.png"
           alt="Paradiso Icon"
           className="w-10 h-10 rounded-full"
+          width={40}
+          height={40}
         />
         <h2
           style={{
@@ -43,10 +47,10 @@ function Navbar() {
         >
           Paradiso
         </h2>
-      </a>
+      </Link>
       <ul className="flex gap-8 list-none m-0 p-0 text-xl">
         <li>
-          <a
+          <Link
             href="/"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
@@ -54,10 +58,10 @@ function Navbar() {
             }}
           >
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/dine"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
@@ -65,10 +69,10 @@ function Navbar() {
             }}
           >
             Dine
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/swim"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
@@ -76,10 +80,10 @@ function Navbar() {
             }}
           >
             Swim
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/vibe"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
@@ -87,11 +91,11 @@ function Navbar() {
             }}
           >
             Vibe
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a
+          <Link
             href="/lodging"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
@@ -99,10 +103,10 @@ function Navbar() {
             }}
           >
             Lodging
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="https://themarketparadiso.com/"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
@@ -110,10 +114,10 @@ function Navbar() {
             }}
           >
             Market
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/membership"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
@@ -121,7 +125,7 @@ function Navbar() {
             }}
           >
             Membership
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
