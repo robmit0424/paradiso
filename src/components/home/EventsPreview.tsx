@@ -53,7 +53,7 @@ const EventsPreview = () => {
             What's Happening
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto font-sans">
-            From wellness workshops to social celebrations, there's always
+            From wellness workshops to social celebrations, there&apos;s always
             something exciting at Paradiso
           </p>
         </div>
