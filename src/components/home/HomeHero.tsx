@@ -1,7 +1,6 @@
 import React from "react";
 import CTAButton from "../common/CTAButton";
 import HeroSection from "../layout/HeroSection";
-// import ShuffleGrid from "../common/Shuffle/ShuffleGrid";
 
 const HomeHero = () => {
   return (
@@ -11,16 +10,15 @@ const HomeHero = () => {
           <h3 className="block mb-1 text-xs md:text-lg font-medium text-[var(--color-secondary)] drop-shadow-md">
             Dine + Swim + Vibe
           </h3>
-          <h3 className="text-4xl md:text-6xl font-semibold text-white drop-shadow-lg">
+          <h1 className="text-4xl md:text-6xl font-semibold text-white drop-shadow-lg">
             North Charleston’s premiere social club
-          </h3>
+          </h1>
 
           <div className="flex gap-4 mt-8">
             <CTAButton text="Learn More" />
             <CTAButton text="Join the club" isSecondaryButton />
           </div>
         </div>
-        {/* <ShuffleGrid /> */}
       </section>
     </HeroSection>
   );
