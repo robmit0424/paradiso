@@ -3,10 +3,7 @@ import React from "react";
 const DrawOutlineButton = ({
   children,
   ...rest
-}: {
-  children: React.ReactNode;
-  [key: string]: any;
-}) => {
+}: React.PropsWithChildren<React.ButtonHTMLAttributes<HTMLButtonElement>>) => {
   return (
     <button
       {...rest}
