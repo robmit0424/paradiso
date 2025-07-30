@@ -46,7 +46,7 @@ const SwimOverview = () => {
             Your Tropical Escape Awaits
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed mb-12 max-w-3xl mx-auto font-sans">
-            Dive into luxury at Paradiso's heated pool complex. From private
+            Dive into luxury at Paradiso&apos;s heated pool complex. From private
             cabanas to swim-up bars, every detail is designed to create the
             ultimate day club experience in North Charleston.
           </p>

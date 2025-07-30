@@ -65,7 +65,7 @@ const SwimExperiences = () => {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-sans">
               From casual day passes to luxury cabana rentals, find the perfect
-              way to enjoy Paradiso's tropical pool club
+              way to enjoy Paradiso&apos;s tropical pool club
             </p>
           </motion.div>
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import HeroSection from "../layout/HeroSection";
-import CTAButton from "../common/CTAButton";
 
 function MembershipHero() {
   const benefits = [
