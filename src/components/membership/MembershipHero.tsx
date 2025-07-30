@@ -1,6 +1,5 @@
 import React from "react";
 import HeroSection from "../layout/HeroSection";
-import CTAButton from "../common/CTAButton";
 
 function MembershipHero() {
   const benefits = [
@@ -31,11 +30,6 @@ function MembershipHero() {
                   <span className="text-lg font-sans drop-shadow">{benefit}</span>
                 </div>
               ))}
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <CTAButton text="Become a Member" />
-              <CTAButton text="Learn More" isSecondaryButton />
             </div>
           </div>
 

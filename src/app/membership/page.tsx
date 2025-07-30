@@ -1,4 +1,5 @@
 import MembershipHero from "@/components/membership/MembershipHero";
+import MembershipTiers from "@/components/membership/MembershipTiers";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,6 +12,7 @@ export default function Membership() {
   return (
     <div className="flex flex-col min-h-screen font-[family-name:var(--font-geist-sans)]">
       <MembershipHero />
+      <MembershipTiers />
     </div>
   );
 }
