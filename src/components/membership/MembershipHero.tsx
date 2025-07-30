@@ -32,11 +32,6 @@ function MembershipHero() {
                 </div>
               ))}
             </div>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <CTAButton text="Become a Member" />
-              <CTAButton text="Learn More" isSecondaryButton />
-            </div>
           </div>
 
           <div className="relative">
