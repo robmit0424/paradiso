@@ -1,16 +1,16 @@
-import ContactHero from "@/components/contact/ContactHero";
+import MembershipHero from "@/components/membership/MembershipHero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Paradiso | Contact",
+  title: "Paradiso | Membership",
   description:
-    "Contact Paradiso: find basic info, map, contact form, social links, and FAQs about waivers, daypass policy, pets, and more.",
+    "Join Paradiso Club: exclusive membership benefits, unlimited pool & fitness access, priority dining, member events, and guest privileges.",
 };
 
-export default function Contact() {
+export default function Membership() {
   return (
     <div className="flex flex-col min-h-screen font-[family-name:var(--font-geist-sans)]">
-      <ContactHero />
+      <MembershipHero />
     </div>
   );
 }

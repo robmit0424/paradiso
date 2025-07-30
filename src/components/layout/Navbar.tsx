@@ -108,6 +108,7 @@ function Navbar() {
         <li>
           <Link
             href="https://themarketparadiso.com/"
+            target="_blank"
             className="text-white no-underline font-medium hover:-translate-y-0.5 transition-transform duration-200"
             style={{
               fontFamily: "var(--font-brasilia-short)",
