@@ -20,7 +20,7 @@ function MembershipHero() {
               Join the Club
             </h1>
             <h3 className="font-medium md:text-2xl text-white/90 mb-8 max-w-xl drop-shadow">
-              Become part of North Charleston's most exclusive social
+              Become part of North Charleston&apos;s most exclusive social
               destination. Where every day feels like a vacation.
             </h3>
 
