@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Glass -->
+  <path d="M10 6 L22 6 L20 18 Q20 20 18 20 L14 20 Q12 20 12 18 Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Stem -->
+  <path d="M16 20 L16 26" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Base -->
+  <ellipse cx="16" cy="27" rx="4" ry="1" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Garnish -->
+  <circle cx="18" cy="10" r="2" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  
+  <!-- Straw -->
+  <path d="M14 4 L14 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Party hat outline -->
+  <path d="M16 4 L20 14 L12 14 Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <circle cx="16" cy="4" r="1.5" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  
+  <!-- Confetti lines -->
+  <path d="M8 8 L10 10" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 6 L26 8" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M26 12 L28 14" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M6 16 L8 18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Streamers -->
+  <path d="M10 18 Q12 20 10 22 Q8 24 10 26" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M22 18 Q20 20 22 22 Q24 24 22 26" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+</svg>

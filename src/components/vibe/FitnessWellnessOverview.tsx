@@ -5,22 +5,22 @@ import GeneralSection from "../layout/GeneralSection";
 const FitnessWellnessOverview = () => {
   const features = [
     {
-      icon: "💪",
+      icon: "/icons/pink/muscle.svg",
       title: "State-of-the-Art Gym",
       description: "Premium equipment and tropical views while you work out",
     },
     {
-      icon: "🧘‍♀️",
+      icon: "/icons/pink/meditation.svg",
       title: "Wellness Center",
       description: "Yoga, meditation, and mindfulness in paradise",
     },
     {
-      icon: "🏃‍♀️",
+      icon: "/icons/pink/running.svg",
       title: "Group Fitness",
       description: "High-energy classes with certified trainers",
     },
     {
-      icon: "🌅",
+      icon: "/icons/pink/sunrise.svg",
       title: "Outdoor Workouts",
       description: "Train under the sky with poolside fitness sessions",
     },
@@ -59,7 +59,9 @@ const FitnessWellnessOverview = () => {
                 viewport={{ once: true }}
                 className="flex items-start space-x-4"
               >
-                <div className="text-3xl flex-shrink-0">{feature.icon}</div>
+                <div className="flex-shrink-0">
+                  <img src={feature.icon} alt={feature.title} className="w-8 h-8" />
+                </div>
                 <div>
                   <h3 className="font-heading font-semibold text-gray-900 mb-2">
                     {feature.title}

@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Beach umbrella -->
+  <path d="M16 8 Q12 10 8 8 Q12 12 16 8 Q20 12 24 8 Q20 10 16 8" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Umbrella pole -->
+  <path d="M16 8 L16 20" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Beach ball -->
+  <circle cx="24" cy="22" r="3" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M21 22 L27 22" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M24 19 L24 25" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- Sand line -->
+  <path d="M4 26 Q16 24 28 26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

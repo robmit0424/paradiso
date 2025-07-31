@@ -5,22 +5,22 @@ import GeneralSection from "../layout/GeneralSection";
 const RestaurantOverview = () => {
   const features = [
     {
-      icon: "🏊‍♀️",
+      icon: "/icons/blue/swimming.svg",
       title: "Swim-Up Bar",
       description: "Order drinks without leaving the pool",
     },
     {
-      icon: "🌮",
+      icon: "/icons/pink/food.svg",
       title: "Poolside Bites",
       description: "Fresh, light meals perfect for day drinking",
     },
     {
-      icon: "🍹",
+      icon: "/icons/blue/cocktail.svg",
       title: "Tropical Cocktails",
       description: "Instagram-worthy drinks that taste as good as they look",
     },
     {
-      icon: "🌴",
+      icon: "/icons/pink/palm-tree.svg",
       title: "Cabana Service",
       description: "VIP dining delivered to your private cabana",
     },
@@ -59,7 +59,9 @@ const RestaurantOverview = () => {
                 viewport={{ once: true }}
                 className="flex items-start space-x-4"
               >
-                <div className="text-3xl flex-shrink-0">{feature.icon}</div>
+                <div className="flex-shrink-0">
+                  <img src={feature.icon} alt={feature.title} className="w-8 h-8" />
+                </div>
                 <div>
                   <h3 className="font-heading font-semibold text-gray-900 mb-2">
                     {feature.title}

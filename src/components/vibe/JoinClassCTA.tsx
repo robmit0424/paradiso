@@ -33,7 +33,9 @@ const JoinClassCTA = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="text-center">
-              <div className="text-3xl mb-3">🧘‍♀️</div>
+              <div className="mb-3 flex justify-center">
+                <img src="/icons/pink/meditation.svg" alt="Meditation" className="w-8 h-8" />
+              </div>
               <h3 className="font-heading font-semibold text-gray-900 mb-2">
                 Drop-In Class
               </h3>
@@ -44,7 +46,9 @@ const JoinClassCTA = () => {
               <DrawOutlineButton>Book Single Class</DrawOutlineButton>
             </div>
             <div className="text-center border-l border-r border-gray-100 px-4">
-              <div className="text-3xl mb-3">💪</div>
+              <div className="mb-3 flex justify-center">
+                <img src="/icons/pink/muscle.svg" alt="Strength" className="w-8 h-8" />
+              </div>
               <h3 className="font-heading font-semibold text-gray-900 mb-2">
                 Class Package
               </h3>
@@ -55,7 +59,9 @@ const JoinClassCTA = () => {
               <DrawOutlineButton>Get Package</DrawOutlineButton>
             </div>
             <div className="text-center">
-              <div className="text-3xl mb-3">🌟</div>
+              <div className="mb-3 flex justify-center">
+                <img src="/icons/pink/star.svg" alt="Premium" className="w-8 h-8" />
+              </div>
               <h3 className="font-heading font-semibold text-gray-900 mb-2">
                 Unlimited Monthly
               </h3>

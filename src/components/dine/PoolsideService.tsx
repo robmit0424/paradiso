@@ -6,22 +6,22 @@ import GeneralSection from "../layout/GeneralSection";
 const PoolsideService = () => {
   const serviceFeatures = [
     {
-      icon: "🏊‍♀️",
+      icon: "/icons/swimming.svg",
       title: "Swim-Up Ordering",
       description: "Order directly from the pool - bartenders come to you",
     },
     {
-      icon: "🛏️",
+      icon: "/icons/bed.svg",
       title: "Daybed Service",
       description: "Premium service for daybed and cabana guests",
     },
     {
-      icon: "📱",
+      icon: "/icons/mobile.svg",
       title: "QR Code Ordering",
       description: "Scan, order, and pay from your phone",
     },
     {
-      icon: "🚀",
+      icon: "/icons/rocket.svg",
       title: "Fast Delivery",
       description: "Food and drinks delivered in under 15 minutes",
     },
@@ -70,7 +70,9 @@ const PoolsideService = () => {
               className="text-center"
             >
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-colors duration-300">
-                <div className="text-4xl mb-4">{feature.icon}</div>
+                <div className="mb-4 flex justify-center">
+                  <img src={feature.icon} alt={feature.title} className="w-10 h-10" />
+                </div>
                 <h3 className="font-heading font-semibold text-white mb-3 text-lg">
                   {feature.title}
                 </h3>

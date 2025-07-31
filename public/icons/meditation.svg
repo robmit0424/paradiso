@@ -1,0 +1,14 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="16" cy="12" r="4" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="16" cy="20" rx="4" ry="6" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Arms in meditation pose -->
+  <path d="M12 18 Q8 20 10 22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M20 18 Q24 20 22 22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Legs crossed -->
+  <path d="M14 26 Q16 28 18 26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

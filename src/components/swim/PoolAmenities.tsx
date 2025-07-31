@@ -10,94 +10,94 @@ const PoolAmenities = () => {
   const categories = [
     {
       name: "Pool Features",
-      icon: "🏊‍♀️",
+      icon: "/icons/blue/swimming.svg",
       color: "from-[#1ACAD4] to-[#16a6b3]",
       items: [
         {
           name: "Heated Pool",
           description: "Year-round swimming at perfect temperature",
           price: "Included",
-          icon: "🌡️",
+          icon: "/icons/thermometer.svg",
         },
         {
           name: "Swim-Up Bar",
           description: "Order drinks without leaving the water",
           price: "Included",
-          icon: "🍹",
+          icon: "/icons/cocktail.svg",
         },
         {
           name: "Pool Towels",
           description: "Fresh towels provided for all guests",
           price: "Included",
-          icon: "🏖️",
+          icon: "/icons/beach.svg",
         },
         {
           name: "Pool Toys",
           description: "Floats, noodles, and games available",
           price: "Included",
-          icon: "🏐",
+          icon: "/icons/volleyball.svg",
         },
       ],
     },
     {
       name: "Premium Services",
-      icon: "⭐",
+      icon: "/icons/pink/premium-star.svg",
       color: "from-[#ec9aad] to-[#e88099]",
       items: [
         {
           name: "Cabana Service",
           description: "Dedicated attendant for cabana guests",
           price: "$300/day",
-          icon: "🏖️",
+          icon: "/icons/beach.svg",
         },
         {
           name: "Daybed Service",
           description: "Food & drink delivery to your daybed",
           price: "$150/day",
-          icon: "🛏️",
+          icon: "/icons/bed.svg",
         },
         {
           name: "Bottle Service",
           description: "Premium spirits and mixers at your spot",
           price: "From $200",
-          icon: "🍾",
+          icon: "/icons/bottle.svg",
         },
         {
           name: "Private Events",
           description: "Exclusive pool area for special occasions",
           price: "Contact Us",
-          icon: "🎉",
+          icon: "/icons/celebration.svg",
         },
       ],
     },
     {
       name: "Additional Services",
-      icon: "🛠️",
+      icon: "/icons/blue/tools.svg",
       color: "from-[#1ACAD4] to-[#ec9aad]",
       items: [
         {
           name: "Locker Rooms",
           description: "Private changing rooms with showers",
           price: "Included",
-          icon: "🚿",
+          icon: "/icons/shower.svg",
         },
         {
           name: "Spa Services",
           description: "Massage and wellness treatments",
           price: "From $120",
-          icon: "💆‍♀️",
+          icon: "/icons/massage.svg",
         },
         {
           name: "Fitness Access",
           description: "Full access to wellness center",
           price: "Included",
-          icon: "💪",
+          icon: "/icons/muscle.svg",
         },
         {
           name: "Event Catering",
           description: "Custom catering for poolside events",
           price: "Contact Us",
-          icon: "🍽️",
+          icon: "/icons/utensils.svg",
         },
       ],
     },
@@ -146,7 +146,7 @@ const PoolAmenities = () => {
               whileHover={{ scale: activeCategory === index ? 1.05 : 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
-              <span className="text-2xl">{category.icon}</span>
+              <img src={category.icon} alt={category.name} className="w-6 h-6" />
               <span className={`font-heading font-semibold ${
                 activeCategory === index ? "text-gray-900" : "text-gray-700"
               }`}>
@@ -191,7 +191,7 @@ const PoolAmenities = () => {
                       <div className="flex items-start justify-between mb-4">
                         <div className="flex items-center space-x-4">
                           <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${categories[activeCategory].color} flex items-center justify-center text-white text-xl shadow-lg`}>
-                            {item.icon}
+                            <img src={item.icon} alt={item.name} className="w-6 h-6" />
                           </div>
                           <div>
                             <h4 className="text-xl font-heading font-bold text-gray-900 mb-1">

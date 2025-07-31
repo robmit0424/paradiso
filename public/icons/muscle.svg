@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bicep outline -->
+  <path d="M8 20 Q8 16 12 14 Q16 12 20 14 Q24 16 24 20 Q24 24 20 26 Q16 28 12 26 Q8 24 8 20 Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Forearm -->
+  <ellipse cx="16" cy="24" rx="8" ry="4" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Muscle definition lines -->
+  <path d="M12 18 Q16 16 20 18" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+</svg>

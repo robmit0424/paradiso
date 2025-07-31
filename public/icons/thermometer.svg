@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Thermometer tube -->
+  <rect x="14" y="6" width="4" height="18" stroke="#FFFFFF" stroke-width="2" fill="none" rx="2"/>
+  
+  <!-- Bulb -->
+  <circle cx="16" cy="24" r="4" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Temperature marks -->
+  <path d="M18 8 L20 8" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M18 12 L20 12" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M18 16 L20 16" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M18 20 L20 20" stroke="#FFFFFF" stroke-width="1"/>
+</svg>

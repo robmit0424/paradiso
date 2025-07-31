@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Volleyball -->
+  <circle cx="16" cy="16" r="12" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Volleyball seams -->
+  <path d="M16 4 Q20 10 16 16 Q12 22 16 28" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  <path d="M16 4 Q12 10 16 16 Q20 22 16 28" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  <path d="M4 16 Q10 12 16 16 Q22 20 28 16" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+</svg>
