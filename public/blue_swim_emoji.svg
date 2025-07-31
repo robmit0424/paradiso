@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Water waves with enhanced flow -->
+  <path d="M4 44 Q12 40 20 44 T36 44 T52 44 T68 44" stroke="#1ACAD4" stroke-width="4" fill="none"/>
+  <path d="M4 48 Q12 44 20 48 T36 48 T52 48 T68 48" stroke="#1ACAD4" stroke-width="3.5" fill="none"/>
+  <path d="M4 52 Q12 48 20 52 T36 52 T52 52 T68 52" stroke="#1ACAD4" stroke-width="3" fill="none"/>
+  
+  <!-- Water fill -->
+  <path d="M0 44 Q8 40 16 44 T32 44 T48 44 T64 44 V64 L0 64 Z" fill="#1ACAD4" opacity="0.2"/>
+  
+  <!-- Swimmer -->
+  <circle cx="24" cy="20" r="6" stroke="#1ACAD4" stroke-width="3" fill="none"/>
+  <ellipse cx="32" cy="28" rx="8" ry="4" stroke="#1ACAD4" stroke-width="3" fill="none"/>
+  
+  <!-- Arms -->
+  <path d="M20 26 Q16 24 12 28" stroke="#1ACAD4" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M36 30 Q40 28 44 32" stroke="#1ACAD4" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Water splash effects -->
+  <circle cx="46" cy="26" r="1.5" fill="#1ACAD4" opacity="0.7"/>
+  <circle cx="50" cy="22" r="1" fill="#1ACAD4" opacity="0.5"/>
+  <circle cx="48" cy="30" r="1.2" fill="#1ACAD4" opacity="0.6"/>
+</svg>

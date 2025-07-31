@@ -34,7 +34,9 @@ const ReservationCTA = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="text-center">
-              <div className="text-3xl mb-3">🏊‍♀️</div>
+              <div className="mb-3 flex justify-center">
+                <img src="/icons/blue/swimming.svg" alt="Swimming" className="w-8 h-8" />
+              </div>
               <h3 className="font-heading font-semibold text-gray-900 mb-2">
                 Day Pass
               </h3>
@@ -45,7 +47,9 @@ const ReservationCTA = () => {
               <DrawOutlineButton>Get Day Pass</DrawOutlineButton>
             </div>
             <div className="text-center border-l border-r border-gray-100 px-4">
-              <div className="text-3xl mb-3">🛏️</div>
+              <div className="mb-3 flex justify-center">
+                <img src="/icons/pink/bed.svg" alt="Daybed" className="w-8 h-8" />
+              </div>
               <h3 className="font-heading font-semibold text-gray-900 mb-2">
                 Daybed Rental
               </h3>
@@ -56,7 +60,9 @@ const ReservationCTA = () => {
               <DrawOutlineButton>Reserve Daybed</DrawOutlineButton>
             </div>
             <div className="text-center">
-              <div className="text-3xl mb-3">🏖️</div>
+              <div className="mb-3 flex justify-center">
+                <img src="/icons/blue/beach.svg" alt="Cabana" className="w-8 h-8" />
+              </div>
               <h3 className="font-heading font-semibold text-gray-900 mb-2">
                 Private Cabana
               </h3>

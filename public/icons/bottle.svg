@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bottle body -->
+  <rect x="10" y="8" width="12" height="20" stroke="#FFFFFF" stroke-width="2" fill="none" rx="1"/>
+  
+  <!-- Bottle neck -->
+  <rect x="14" y="4" width="4" height="6" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Cork/cap -->
+  <rect x="13" y="2" width="6" height="3" stroke="#FFFFFF" stroke-width="2" fill="none" rx="1"/>
+  
+  <!-- Label -->
+  <rect x="12" y="12" width="8" height="4" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+</svg>

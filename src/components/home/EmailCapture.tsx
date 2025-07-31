@@ -168,7 +168,9 @@ const EmailCapture = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   className="text-center p-8 bg-gradient-to-r from-[#1ACAD4]/10 to-[#ec9aad]/10 rounded-2xl border border-[#1ACAD4]/20"
                 >
-                  <div className="text-4xl mb-4">🎉</div>
+                  <div className="mb-4 flex justify-center">
+                    <img src="/icons/blue/celebration.svg" alt="Celebration" className="w-10 h-10" />
+                  </div>
                   <h3 className="text-2xl font-heading font-semibold text-gray-900 mb-2">
                     Welcome to the VIP List!
                   </h3>

@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Water waves -->
+  <path d="M2 20 Q6 18 10 20 T18 20 T26 20 T34 20" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M2 24 Q6 22 10 24 T18 24 T26 24 T34 24" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Swimmer head -->
+  <circle cx="12" cy="12" r="3" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="16" cy="16" rx="4" ry="2" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Arms -->
+  <path d="M12 14 Q8 12 6 16" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M20 17 Q24 15 26 19" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

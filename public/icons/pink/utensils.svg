@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fork -->
+  <path d="M10 4 L10 24" stroke="#ec9aad" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M8 4 L8 12" stroke="#ec9aad" stroke-width="2" stroke-linecap="round"/>
+  <path d="M12 4 L12 12" stroke="#ec9aad" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Fork handle decoration -->
+  <ellipse cx="10" cy="20" rx="1.5" ry="2" fill="#ec9aad" opacity="0.2"/>
+  
+  <!-- Knife -->
+  <path d="M22 8 L22 24" stroke="#ec9aad" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M20 8 L24 4" stroke="#ec9aad" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Knife handle decoration -->
+  <ellipse cx="22" cy="20" rx="1.5" ry="2" fill="#ec9aad" opacity="0.2"/>
+  
+  <!-- Elegant flourishes -->
+  <path d="M6 2 Q8 1 6 0" stroke="#ec9aad" stroke-width="1" opacity="0.5" fill="none"/>
+  <path d="M26 2 Q24 1 26 0" stroke="#ec9aad" stroke-width="1" opacity="0.5" fill="none"/>
+  
+  <!-- Dining sparkles -->
+  <circle cx="14" cy="8" r="0.5" fill="#ec9aad" opacity="0.6"/>
+  <circle cx="18" cy="12" r="0.3" fill="#ec9aad" opacity="0.8"/>
+</svg>

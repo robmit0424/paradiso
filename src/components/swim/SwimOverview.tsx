@@ -5,25 +5,25 @@ import GeneralSection from "../layout/GeneralSection";
 const SwimOverview = () => {
   const features = [
     {
-      icon: "🏊‍♀️",
+      icon: "/icons/swimming.svg",
       title: "Heated Pool",
       description: "Year-round swimming in our tropical oasis",
       gradient: "from-[#1ACAD4] to-[#16a6b3]",
     },
     {
-      icon: "🏖️",
+      icon: "/icons/beach.svg",
       title: "Private Cabanas",
       description: "Luxury cabanas with dedicated service",
       gradient: "from-[#ec9aad] to-[#e88099]",
     },
     {
-      icon: "🛏️",
+      icon: "/icons/bed.svg",
       title: "Daybed Rentals",
       description: "Premium poolside lounging experience",
       gradient: "from-[#1ACAD4] to-[#ec9aad]",
     },
     {
-      icon: "🍹",
+      icon: "/icons/cocktail.svg",
       title: "Swim-Up Bar",
       description: "Order drinks without leaving the water",
       gradient: "from-[#ec9aad] to-[#1ACAD4]",
@@ -67,8 +67,8 @@ const SwimOverview = () => {
               className="group relative"
             >
               <div className={`bg-gradient-to-br ${feature.gradient} rounded-3xl p-8 text-white shadow-xl hover:shadow-2xl transition-all duration-300`}>
-                <div className="text-4xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                  {feature.icon}
+                <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                  <img src={feature.icon} alt={feature.title} className="w-10 h-10" />
                 </div>
                 <h3 className="font-heading font-bold text-xl mb-3">
                   {feature.title}
@@ -101,34 +101,7 @@ const SwimOverview = () => {
         </motion.div>
       </div>
 
-      {/* Bottom Image Gallery */}
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.4 }}
-        viewport={{ once: true }}
-        className="mt-20"
-      >
-        <div className="flex overflow-x-auto gap-6 px-4 pb-4 -mx-4">
-          {[
-            { src: "/grid_images/large_group_table.jpeg", alt: "Pool area" },
-            { src: "/grid_images/drink_cheers.jpeg", alt: "Swim-up bar" },
-            { src: "/grid_images/group_outside.jpeg", alt: "Poolside lounging" },
-            { src: "/grid_images/thinking_outside.jpeg", alt: "Private cabana" },
-          ].map((image, index) => (
-            <div key={index} className="flex-shrink-0">
-              <div className="relative overflow-hidden rounded-xl w-72 h-48 group">
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent group-hover:from-black/50 transition-colors duration-300"></div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </motion.div>
+     
     </GeneralSection>
   );
 };

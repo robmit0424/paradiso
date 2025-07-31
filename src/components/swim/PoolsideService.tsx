@@ -6,25 +6,25 @@ import GeneralSection from "../layout/GeneralSection";
 const PoolsideService = () => {
   const serviceFeatures = [
     {
-      icon: "🏊‍♀️",
+      icon: "/icons/swimming.svg",
       title: "Swim-Up Service",
       description: "Order food and drinks directly from the pool",
       benefit: "No interruption to your pool time",
     },
     {
-      icon: "🛏️",
+      icon: "/icons/bed.svg",
       title: "Daybed Service",
       description: "Premium service for daybed and cabana guests",
       benefit: "VIP treatment at your spot",
     },
     {
-      icon: "📱",
+      icon: "/icons/mobile.svg",
       title: "Mobile Ordering",
       description: "Order from your phone with QR codes",
       benefit: "Fast & contactless ordering",
     },
     {
-      icon: "🚀",
+      icon: "/icons/rocket.svg",
       title: "Fast Delivery",
       description: "Food and drinks delivered in under 15 minutes",
       benefit: "Quick service guarantee",
@@ -110,8 +110,8 @@ const PoolsideService = () => {
                 <div className="relative z-10">
                   <div className="flex items-start space-x-6">
                     <div className="flex-shrink-0">
-                      <div className="w-16 h-16 bg-gradient-to-br from-[#1ACAD4] to-[#ec9aad] rounded-2xl flex items-center justify-center text-3xl shadow-xl">
-                        {feature.icon}
+                      <div className="w-16 h-16 bg-gradient-to-br from-[#1ACAD4] to-[#ec9aad] rounded-2xl flex items-center justify-center shadow-xl">
+                        <img src={feature.icon} alt={feature.title} className="w-8 h-8" />
                       </div>
                     </div>
                     

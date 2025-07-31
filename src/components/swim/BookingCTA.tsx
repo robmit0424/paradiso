@@ -7,7 +7,7 @@ const BookingCTA = () => {
   const bookingOptions = [
     {
       title: "Day Pass",
-      icon: "🏊‍♀️",
+      icon: "/icons/swimming.svg",
       price: "$50",
       originalPrice: "$75",
       description: "Pool access + food & drink ordering",
@@ -17,7 +17,7 @@ const BookingCTA = () => {
     },
     {
       title: "Daybed Rental",
-      icon: "🛏️",
+      icon: "/icons/bed.svg",
       price: "$150",
       originalPrice: "$200",
       description: "Premium poolside seating + VIP service",
@@ -27,7 +27,7 @@ const BookingCTA = () => {
     },
     {
       title: "Private Cabana",
-      icon: "🏖️",
+      icon: "/icons/beach.svg",
       price: "$300",
       originalPrice: "$400",
       description: "Ultimate luxury with dedicated service",
@@ -131,7 +131,9 @@ const BookingCTA = () => {
                 <div className={`bg-gradient-to-br ${option.gradient} p-8 text-white relative overflow-hidden`}>
                   <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl transform translate-x-8 -translate-y-8"></div>
                   <div className="relative z-10">
-                    <div className="text-4xl mb-4">{option.icon}</div>
+                    <div className="mb-4">
+                      <img src={option.icon} alt={option.title} className="w-10 h-10" />
+                    </div>
                     <h3 className="text-2xl font-heading font-bold mb-2">
                       {option.title}
                     </h3>

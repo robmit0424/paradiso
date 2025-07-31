@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sun -->
+  <circle cx="16" cy="12" r="6" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Sun rays -->
+  <path d="M16 2 L16 4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 6 L22.5 7.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 12 L26 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 18 L22.5 16.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M8 6 L9.5 7.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M4 12 L6 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M8 18 L9.5 16.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Horizon -->
+  <path d="M2 22 L30 22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Mountains -->
+  <path d="M6 22 L10 14 L14 18 L18 10 L22 16 L26 22" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" fill="none"/>
+</svg>
